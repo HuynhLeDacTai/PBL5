@@ -99,10 +99,10 @@ ASGI_APPLICATION = 'parking.asgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'parking',
-        'USER': 'root',
-        'PASSWORD': '22112002',
+        'ENGINE': 'django.db.backends.mariadb',
+        'NAME': 'id20352764_parking',
+        'USER': 'id20352764_smartparking',
+        'PASSWORD': 'Smartparkingpbl5@',
         'HOST': 'localhost',
     }
 }
